@@ -42,6 +42,8 @@ SUB t22, t21, t19
 SW t22, 0(t23)
 J loop_1
 out_2:
+LI t24, 0
+HALT
 
 
 .section .strings
